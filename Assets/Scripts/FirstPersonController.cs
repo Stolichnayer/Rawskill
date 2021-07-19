@@ -68,10 +68,9 @@ namespace UnityStandardAssets.Characters.FirstPerson
             // MIRROR
             if (!isLocalPlayer)
             {
-                Debug.Log("oxi local");
+                //Debug.Log("oxi local");
                 return;
-            }
-                
+            }                
 
             RotateView();
             // the jump state needs to read here to make sure it is not missed
