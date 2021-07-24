@@ -7,13 +7,10 @@ public class PlayerSetup : NetworkBehaviour
 {
     [SerializeField]
     Behaviour[] componentsToDisable;
-    
-    //[SerializeField]
-    //GameObject sceneCamera;
-
+        
     private void Start()
     {
-        
+
         if (!isLocalPlayer)
         {
             foreach (Behaviour b in componentsToDisable)

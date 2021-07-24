@@ -2372,7 +2372,7 @@ MonoBehaviour:
   - {fileID: 5207489518508178376}
   - {fileID: 5207489518513196040}
   - {fileID: 5207489518519291944}
-  camera: {fileID: 0}
+  canvas: {fileID: 802713216973151245, guid: 8f9be085576926d458da6f7229f5222d, type: 3}
 --- !u!1 &5207489518513655338
 GameObject:
   m_ObjectHideFlags: 0
