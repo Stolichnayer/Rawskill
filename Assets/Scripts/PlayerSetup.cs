@@ -10,6 +10,9 @@ public class PlayerSetup : NetworkBehaviour
 
     [SerializeField]
     GameObject fireArms;
+     
+    [SerializeField]
+    GameObject thirdPersonAvatar;
  
     private void Start()
     {
@@ -25,6 +28,7 @@ public class PlayerSetup : NetworkBehaviour
         else
         {
             GameObject.FindWithTag("SceneCamera").SetActive(false);
+            thirdPersonAvatar.SetActive(false);
         }
     }
 
