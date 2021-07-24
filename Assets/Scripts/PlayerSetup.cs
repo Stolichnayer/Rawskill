@@ -7,7 +7,10 @@ public class PlayerSetup : NetworkBehaviour
 {
     [SerializeField]
     Behaviour[] componentsToDisable;
-        
+
+    [SerializeField]
+    GameObject fireArms;
+ 
     private void Start()
     {
 
@@ -16,6 +19,7 @@ public class PlayerSetup : NetworkBehaviour
             foreach (Behaviour b in componentsToDisable)
             {
                 b.enabled = false;
+                fireArms.SetActive(false);
             }
         }
         else
